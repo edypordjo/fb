@@ -49,7 +49,7 @@ class TestFbchat(unittest.TestCase):
         self.assertFalse(client.isLoggedIn())
 
         with self.assertRaises(Exception):
-            client.login('<email>', '<password>', max_tries=1)
+            client.login('bony1001@yahoo.com', 'ciujung1234567', max_tries=1)
 
         client.login(email, password)
 
